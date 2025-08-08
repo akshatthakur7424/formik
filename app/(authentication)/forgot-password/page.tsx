@@ -91,7 +91,7 @@ export default function ForgotPassword() {
 
                 {/* Info */}
                 <p className="text-muted-foreground text-sm my-4">
-                    We'll send a verification code to this email if it matches an existing LinkedIn account.
+                    We'll send a verification code to this email if it matches an existing Formik account.
                 </p>
 
                 {/* Buttons */}

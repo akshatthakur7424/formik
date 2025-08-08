@@ -1,7 +1,8 @@
 import React from "react";
 
 import AuthenticationNavbar from "@/components/navigation-bar/authentication-navbar/page";
-import { ToastProvider } from "@/components/providers/toaster-provider";
+import { ToastProvider } from "@/components/providers/toastProvider";
+
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
     return (

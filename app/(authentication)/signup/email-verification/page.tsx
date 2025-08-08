@@ -40,7 +40,7 @@ export default function EmailVerification() {
             console.log(response)
             if (response.data.status == "success") {
                 toast.success("Account created successfully!");
-                router.push("/profile")
+                router.push("/")
             } else {
                 toast.error("Incorrect OTP")
             }

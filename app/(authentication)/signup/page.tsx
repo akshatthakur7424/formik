@@ -132,7 +132,7 @@ export default function SignUp() {
 
                 {/* Terms */}
                 <p className="text-center text-xs text-gray-500 max-w-sm leading-relaxed mt-4">
-                    By clicking Agree & Join or Continue, you agree to LinkedIn’s
+                    By clicking Agree & Join or Continue, you agree to Formik's
                     <a href="#" className="text-blue-600 hover:underline"> User Agreement</a>,
                     <a href="#" className="text-blue-600 hover:underline"> Privacy Policy</a>, and
                     <a href="#" className="text-blue-600 hover:underline"> Cookie Policy</a>.
@@ -141,7 +141,7 @@ export default function SignUp() {
                 <p className="text-muted-foreground my-4">or</p>
 
                 <p className="text-sm text-gray-700">
-                    Already on LinkedIn?{" "}
+                    Already have an Account?{" "}
                     <button
                         onClick={handleSignIn}
                         className="text-blue-600 font-medium hover:underline cursor-pointer"

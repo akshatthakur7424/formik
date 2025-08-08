@@ -42,7 +42,7 @@ export default function SignIn() {
                 // Save token to cookie or wherever needed
                 await axios.post("/api/auth/set-token", { token });
                 toast.success("Signed in successfully!");
-                router.push("/profile");
+                router.push("/");
             } else {
                 toast.error(response.data.message || "Sign in failed. Try again.");
             }
@@ -109,7 +109,7 @@ export default function SignIn() {
             {/* Sign Up Link */}
             <div>
                 <p className="text-lg text-gray-700 my-2">
-                    New to LinkedIn?{" "}
+                    New to Formik?{" "}
                     <button
                         onClick={handleSignUp}
                         className="text-blue-600 font-medium hover:underline cursor-pointer"
